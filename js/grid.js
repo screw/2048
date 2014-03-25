@@ -23,7 +23,7 @@ Grid.prototype.randomAvailableCell = function () {
 
   if (cells.length) {
     //return cells[Math.floor(Math.random() * cells.length)];
-    return cells[0];
+    return cells[cells.length];
   }
 };
 
